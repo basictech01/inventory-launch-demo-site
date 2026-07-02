@@ -48,7 +48,11 @@ const Index = () => {
       <nav className="container mx-auto px-4 sm:px-6 py-4 animate-fade-in">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3 hover:scale-105 transition-transform duration-300">
-            <Database className="w-6 h-6 sm:w-8 sm:h-8 text-primary animate-pulse" />
+            <img
+              src="/logo.png"
+              alt="Basic Tech logo"
+              className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
+            />
             <span className="text-lg sm:text-xl font-bold text-foreground">Basic Tech</span>
           </div>
         </div>
